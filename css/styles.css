@@ -3,7 +3,7 @@
 }
 body {
     color: white;
-    background-color: black;
+    background-color: rgb(253, 247, 247);
     font-family: var(--main-font);
 }
 .top_part {
@@ -24,8 +24,52 @@ body {
     font-size: 20px;
     letter-spacing: 0.06em; 
 }
-.logo_contaner {
+.title .logo_contaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 10, 10);
+    background-image:  url("/images/theme2jpg.jpg");
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.main-title-cont {
+    max-width: 46%;
+}
+.main-title {
+    text-align: center;
+    font-size: 25px;
+}
+.info {
+    background-color: black;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
-    background-color: rgb(13, 10, 10);
+
+}
+.info-container {
+    background-color: rgb(60, 51, 51);
+    width: 45%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.infop-cont {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.first-infop {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.second-infop {
+    text-align: end;
+    font-size: 30px;
+}
+.sec-info-container {
+    width: 45%;
+    background-image: url(/images/anthracite-grey.jpg);
+    background-size: cover;
+    margin-left: 20px;
 }
