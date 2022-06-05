@@ -1,4 +1,8 @@
 @import "./base/common";
 
+@import "./layout/header";
+@import "./layout/main-theme";
+@import "./layout/info-section";
+
 @import "./components/logo";
-@import "./";
+@import "./components/menu";
